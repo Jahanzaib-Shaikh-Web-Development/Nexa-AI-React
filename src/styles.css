@@ -38,31 +38,6 @@
   font-weight: 600;
 }
 
-/* hi */
-/* Theme button */
-.theme-toggle {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  min-height: 44px;
-  padding: 10px 14px;
-  background: var(--card);
-  color: var(--foreground);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.theme-toggle:hover {
-  background: var(--accent);
-}
-
-.theme-toggle:focus-visible {
-  outline: 2px solid #9866ff;
-  outline-offset: 3px;
-}
-
 /* Light-mode home page */
 :root.light .landing {
   color: #172037;
@@ -100,7 +75,6 @@
   }
 }
 
-/* mk */
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -1330,21 +1304,6 @@ label {
   font-size: 28px;
 }
 
-.setting-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 15px;
-  border-block: 1px solid var(--border);
-  padding: 23px 0;
-  margin: 25px 0;
-}
-
-.setting-row p {
-  font-size: 12px;
-  margin-top: 5px;
-}
-
 .toast {
   position: fixed;
   bottom: 25px;
@@ -1834,9 +1793,6 @@ label {
     display: none;
   }
 
-  .setting-row {
-    flex-wrap: wrap;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2863,7 +2819,9 @@ label {
   border-left: 1px solid var(--g-line);
   border-right: 1px solid var(--g-line)
 }
-
+.setting-row{
+  padding: 10px;
+}
 .gp-stage-top {
   display: flex;
   justify-content: space-between;

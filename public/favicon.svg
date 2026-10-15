@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Fevicol icon">
+  <defs>
+    <linearGradient id="fevicol-red" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7e57" />
+      <stop offset="100%" stop-color="#ea4b2b" />
+    </linearGradient>
+    <linearGradient id="fevicol-blue" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#1ea0ff" />
+      <stop offset="100%" stop-color="#0a5ad8" />
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="25" fill="url(#fevicol-red)" />
+  <path d="M21 18.5h17.2a3.4 3.4 0 0 1 3.3 3.4v4.6a3.4 3.4 0 0 1-3.3 3.4H30.8v4.9h8.2a3.4 3.4 0 0 1 3.3 3.4v4.6a3.4 3.4 0 0 1-3.3 3.4H21V18.5Z" fill="#fff" />
+  <path d="M37.1 9.8c5.8 0 10.7 4.7 10.7 10.7 0 5.8-4.9 10.6-10.7 10.6-5.7 0-10.5-4.8-10.5-10.6 0-6 4.8-10.7 10.5-10.7Z" fill="url(#fevicol-blue)" opacity="0.95" />
+  <path d="M34.8 18.8c1.7 0 3.2.8 4.1 2.1l-2.9 2.8c-.4-.6-1-.9-1.7-.9-1.2 0-2.2 1-2.2 2.2 0 1.2 1 2.2 2.2 2.2.7 0 1.3-.3 1.7-.9l2.9 2.8A6.4 6.4 0 0 1 34.8 28c-3.7 0-6.7-3-6.7-6.6 0-3.7 3-6.6 6.7-6.6Z" fill="#fff" />
+</svg>

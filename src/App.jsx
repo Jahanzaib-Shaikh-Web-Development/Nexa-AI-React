@@ -466,17 +466,7 @@ export default function App() {
               Get started <ArrowRight />
             </Button>
 
-            <button
-              type="button"
-              className="theme-toggle"
-              onClick={() => setLight((current) => !current)}
-              aria-label={
-                light ? "Switch to dark mode" : "Switch to light mode"
-              }
-            >
-              {light ? <Moon size={20} /> : <Sun size={20} />}
-              <span>{light ? "Dark mode" : "Light mode"}</span>
-            </button>
+          
           </div>
         </nav>
 
@@ -1465,14 +1455,6 @@ export default function App() {
                     </Button>
                   </form>
                   <div className="setting-row">
-                    <div>
-                      <strong>Appearance</strong>
-                      <p>Choose your preferred workspace theme.</p>
-                    </div>
-                    <Button variant="outline" onClick={() => setLight(!light)}>
-                      {light ? <Moon /> : <Sun />}
-                      {light ? "Dark" : "Light"} mode
-                    </Button>
                   </div>
                   <Button variant="outline" onClick={() => go("login")}>
                     <LogOut />

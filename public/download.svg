@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>NexaAI</title>
+  <rect width="64" height="64" rx="15" fill="#080e1c"/>
+  <g fill="#9865ff">
+    <path d="M27 10c2 0 3 2 3.5 5l2 10.5L43 28c5 1 5 5 0 6l-10.5 2.5L30 47c-1 5-5 5-6 0l-2.5-10.5L11 34c-5-1-5-5 0-6l10.5-2.5L24 15c.5-3 1-5 3-5Z"/>
+    <path d="m48 7 2.5 7.5L58 17l-7.5 2.5L48 27l-2.5-7.5L38 17l7.5-2.5Z"/>
+    <path d="m13 43 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/>
+  </g>
+</svg>
